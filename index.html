@@ -1,11 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>
             My Site!
         </title>
+            <!-- Kit's code  -->
+        <script src="https://kit.fontawesome.com/2cad8c4e14.js" crossorigin="anonymous"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+        <!--Linking CSS to HTML document using External Style -->
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+  
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora&display=swap">
+
+        <!--Linking JavaScript to HTML document -->
+        <script src="profile.js"></script>
     </head>
     <body>
-        <h1>This is my GitHub Pages website</h1> 
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            
+            <div class="profile-links">
+                <a href="https://github.com/leslieroca" id="profile-link" target="_blank" class="active"><i class="fab fa-github fa-lg"></i></a>
+                <a href="https://www.facebook.com/leslie.rodriguezcabrera.7" target="_blank" class="active"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/leslierc" target="_blank" class="active"><i class="fab fa-linkedin-in fa-lg"></i></a>
+            </div>
+
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenue()">
+                <i class="fa fa-bars"></i>
+            </a>
+        
+        </div>
+
+        <section id="welcome_section">
+            <div>
+                <h1>Front End Developer</h1>
+                    <p>Leslie Rodriguez<p>
+            </div>
+        </section>
+
+
+        <section id="projects">
+            <h1>Projects</h1>
+            <div class="grid-container">
+                
+                <div class="row">  
+                    <div class="column">
+                        <p>HostelHub</p>
+                    </div>
+                    <div class="column">
+                        <p>Battleship Game</p>
+                    </div>  
+                </div> 
+    
+                <div class="row">  
+                    <div class="column">
+                        <p>Grocery List</p>
+                    </div>
+                    <div class="column">
+                        <p>Tic-Tac-Toe</p>
+                    </div>  
+                </div> 
+
+            </div>
+        </section>
     </body>
 </html>
