@@ -96,7 +96,8 @@
   }
 
   #project_container > div > a:hover {
-    color: skyblue
+    color: skyblue;
+    font-size: 23px
   }
 
   .profile-links {
