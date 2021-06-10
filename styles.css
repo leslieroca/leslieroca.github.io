@@ -89,7 +89,16 @@
     flex: 1;
     border: 1px;
   }
+
+  .project_link_style {
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+  }
   
+  .project_link_style:hover {
+    color: skyblue !important;
+  }
   .profile-links {
     display: flex;
   }
