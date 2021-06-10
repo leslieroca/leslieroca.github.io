@@ -72,8 +72,8 @@
     height: auto;
   }
   
-  #projects {
-    height: 500px;
+  #projects, #contact, #about {
+    height: 350px;
     text-align: center;
   }
   
@@ -104,9 +104,8 @@
     display: flex;
   }
 
-  #about {
-    height: 500px;
-    text-align: center;
+  #contact > a {
+    color: white;
   }
 
   @media only screen and (max-width: 600px) {
