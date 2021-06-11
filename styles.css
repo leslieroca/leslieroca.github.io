@@ -112,6 +112,7 @@
 
   #contact > div > a:hover {
     color: skyblue !important;
+    font-size: 22px;
   }
   
   @media only screen and (max-width: 600px) {
